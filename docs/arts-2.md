@@ -83,10 +83,10 @@ class Solution {
 
 ##### 思路：
 
-> ```
+> 
 > 牛顿法 https://en.wikipedia.org/wiki/Integer_square_root
 > 注意防止整形越界。
-> ```
+> 
 
 ##### 解法：
 
