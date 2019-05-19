@@ -1,6 +1,6 @@
 ## 1. Algorithm
 
-#### 160. 环形链表（简单）
+#### 141. 环形链表（简单）
 
 ##### 描述：
 
@@ -47,7 +47,7 @@ class Solution {
 
 -----
 
-#### 169. 阶乘后的零（简单）
+#### 172. 阶乘后的零（简单）
 
 ##### 描述：
 
@@ -97,17 +97,17 @@ class Solution {
 
 ## 2. Review
 
-[Ace your first year as a junior developer with this advice](https://medium.freecodecamp.org/ace-your-first-year-as-a-junior-developer-with-this-advice-bbc68b6fe2d9) 初级开发者赢得第一年的建议
+[Ace your first year as a junior developer with this advice](https://medium.freecodecamp.org/ace-your-first-year-as-a-junior-developer-with-this-advice-bbc68b6fe2d9) 初级开发者赢得首年的建议
 
 文章主要从以下几个方面展开论述：
 
-- 知识有缺口不可怕，软件开发者要不断学习。
+- 知识有缺口不可怕，软件开发者就要不断学习。
 - 有问题是好事，要积极寻求帮助。
 - 代码审查是你的朋友，从中可以学到很多。
-- 把大任务拆解成小任务，写下步骤更清晰。
+- 把大任务拆解成小任务，写下步骤会更加清晰。
 - 保持简洁。三个步骤：走通、重构、优化。测试驱动开发（TDD）
 - 学习如何写整洁代码。平庸的程序员写出机器理解的代码，优秀的程序员写出人类可读的代码。
-- 你遇到的问题大部分都有答案，所以先去寻找答案吧。网站 GubHub、StackOverflow。
+- 你遇到的问题大部分都有答案，所以先去寻找答案吧。比如到 GitHub、StackOverflow 上。
 - 学会如何读代码。关注设计模式、方法类变量的命名、注释的使用、测试的使用。
 
 ## 3. Tip
