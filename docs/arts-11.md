@@ -134,7 +134,7 @@ class Solution {
 
 ## 3. Tip
 
-[Android I/O 那些事儿](https://www.jianshu.com/p/43af9c156674) 总结了 Android 系统的 I/O 知识，对它有了更深层次的了解。
+[Android I/O 那些事儿](https://isuperqiang.cn/post/android-io-na-xie-shi-er/) 总结了 Android 系统的 I/O 知识，对它有了更深层次的了解。
 
 ## 4. Share
 

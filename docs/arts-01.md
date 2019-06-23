@@ -173,7 +173,7 @@ if (me.getDistanceTo(you.position) < 200) {
 
 ## 3. Tip
 
-本周学习了 Java 线程间通信，简单总结了一下。[Java线程间通信和协作的两种方式](https://www.jianshu.com/p/8d40ef55e301)
+本周学习了 Java 线程间通信，简单总结了一下。[Java线程间通信和协作的两种方式](https://isuperqiang.cn/post/java-xian-cheng-jian-tong-xin-he-xie-zuo-de-liang-chong-fang-shi/)
 
 
 ## 4. Share

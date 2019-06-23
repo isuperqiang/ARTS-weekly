@@ -122,7 +122,7 @@ class Solution {
 
 ## 3. Tip
 
-读《码出高效：Java 开发手册》集合篇看到 fail-fast 有感，[Java集合的fail-fast机制](https://www.jianshu.com/p/6d87c36bad3e)
+读《码出高效：Java 开发手册》集合篇看到 fail-fast 有感，[Java集合的fail-fast机制](https://isuperqiang.cn/post/java-ji-he-de-fail-fast-ji-zhi/)
 
 
 ## 4. Share

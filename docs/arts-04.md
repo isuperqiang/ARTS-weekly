@@ -162,4 +162,4 @@ class MinStack {
 
 ## 4. Share
 
-最近在重新学王争的《数据结构与算法之美》专栏，理解理论知识，动手写代码，输出[学习笔记](https://www.jianshu.com/nb/36205336)。算法是编程的内功，可以通过刻意练习来修炼，每天一道 LeetCode 题目就够了。
+最近在重新学王争的《数据结构与算法之美》专栏，理解理论知识，动手写代码，输出[学习笔记](https://isuperqiang.cn/tag/datastruct-algorithm/)。算法是编程的内功，可以通过刻意练习来修炼，每天一道 LeetCode 题目就够了。
