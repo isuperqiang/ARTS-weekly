@@ -98,7 +98,7 @@ class Solution {
 
 ## 4. Share
 
-公司 Q2 季度考核，根据实际情况，自评打了高分，我觉得是对的。caoz 有篇文章：[你矜持，你活该](https://mp.weixin.qq.com/s?src=11&timestamp=1563019087&ver=1726&signature=9fQ4ZX*rEFkwGbhmEqH4Q4-cRmJ2hjBIU8yPq85eD-OesZsWf*n85fixDcGv*hq9aAgqwCiQh0XnA*UiH9S6m9ECXXcIVCvm6eep1MgZFSPRG5IflvDrl5F3206kzQRg&new=1) 讲过。
+公司 Q2 季度考核，根据实际情况，自评打了高分，我觉得是对的。caoz 有篇文章：[你矜持，你活该](https://mp.weixin.qq.com/s/0emM3IyruRxhBzMVPpeTpQ) 讲过。
 
 职场不要太矜持，合作沟通的时候姿态低一些，争取权益的时候胆子大一些。
 
