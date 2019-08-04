@@ -45,8 +45,6 @@ class Solution {
 - 时间复杂度：O(n)
 - 空间复杂度：O(1)
 
------
-
 ## 2. Review
 
 [How to Become a Better Software Developer](https://medium.com/devtrailsio/how-to-become-a-better-software-developer-dd16072c974e) 如何成为更好的软件开发者

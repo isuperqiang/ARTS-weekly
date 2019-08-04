@@ -73,8 +73,6 @@ class Solution {
   - 解法二：O(n)
 - 空间复杂度都是 O(1)
 
------
-
 ## 2. Review
 
 [Java Memory  Model](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html) 主要讲述了 Java 内存模型、硬件内存架构和两者之间的差异。

@@ -50,8 +50,6 @@ class Solution {
 - 时间复杂度：O(logn)
 - 空间复杂度：O(1)
 
------
-
 ## 2. Review
 
 [TDD Changed My Life](https://medium.com/javascript-scene/tdd-changed-my-life-5af0ce099f80) TDD 改变了我的人生
