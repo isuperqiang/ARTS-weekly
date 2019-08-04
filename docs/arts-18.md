@@ -50,6 +50,11 @@ class Solution {
 }
 ```
 
+##### 分析：
+
+- 时间复杂度：O(n)
+- 空间复杂度：O(1)
+
 ## 2. Review
 
 [Basic Linux Commands for Beginners](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners) 为新手准备的 Linux 命令
