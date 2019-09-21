@@ -11,7 +11,7 @@ ARTS 详情：[极客时间《左耳听风》发起的ARTS挑战怎么参加？ 
 
 ## 2019
 
-**9 月**：[第 22 期](docs/arts-22.md) | [第 23 期](docs/arts-23.md) :high_brightness:
+**9 月**：[第 22 期](docs/arts-22.md) | [第 23 期](docs/arts-23.md) | [第 24 期](docs/arts-24.md) :high_brightness:
 
 **8 月**：[第 18 期](docs/arts-18.md) | [第 19 期](docs/arts-19.md) | [第 20 期](docs/arts-20.md) | [第 21 期](docs/arts-21.md)
 
