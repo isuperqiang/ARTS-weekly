@@ -60,7 +60,7 @@ class Sulution {
 
 ## 3. Tip
 
-[花椒移动端基础框架架构](https://mp.weixin.qq.com/s/QMhMSJ95Kl0tdE-jb1Jvgw) 这篇文章总结了移动端的架构，对移动应用架构设计有参考价值。
+继续阅读 CSAPP，[深入理解计算机系统之程序的机器级表示（一）](https://isuperqiang.cn/post/shen-ru-li-jie-ji-suan-ji-xi-tong-zhi-cheng-xu-de-ji-qi-ji-biao-shi-yi/)。计算机只能执行机器指令，高级程序语言需要经过编译器编译成机器代码，才能被计算机执行。汇编代码是用人类可读的文本表示机器指令，它非常接近机器代码。
 
 ## 4. Share
 
