@@ -80,7 +80,7 @@ class Sulution {
 
 ## 4. Share
 
-在 GitHub 上搜了一些 Android 面试资料 http://note.youdao.com/noteshare?id=a04ac812925b23f6dc112eda70079c53，愿步步高升。
+在 GitHub 上搜了一些 Android 面试资料 http://note.youdao.com/noteshare?id=a04ac812925b23f6dc112eda70079c53 愿步步高升。
 
 **题外话：**
 
