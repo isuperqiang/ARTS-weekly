@@ -11,7 +11,7 @@ ARTS 详情：[极客时间《左耳听风》发起的ARTS挑战怎么参加？ 
 
 ## 2020
 
-**4月**：[第 26 期](docs/arts-26.md) :high_brightness:
+**4月**：[第 26 期](docs/arts-26.md) | [第 27 期](docs/arts-27.md) :high_brightness:
 
 ## 2019
 
