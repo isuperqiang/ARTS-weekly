@@ -1,7 +1,7 @@
 每周完成一次 **ARTS** 编程挑战，坚持做有积累效应的事情。
 
-1. **Algorithm**：每周至少做一道  [LeetCode](<https://leetcode-cn.com/>)  算法题，进行编程训练。
-2. **Review**：阅读并点评至少一篇英文技术文章，一般来自 [Medium](<https://medium.com/>)。
+1. **Algorithm**：每周至少做一道  [LeetCode](https://leetcode-cn.com/)  算法题，进行编程训练。
+2. **Review**：阅读并点评至少一篇英文技术文章，一般来自 [Medium](https://medium.com/)。
 3. **Tip**：学习至少一个技术技巧，总结工作中遇到的问题和学到的知识。
 4. **Share**：分享一篇有观点和思考的技术文章，输出价值观，建立影响力。
 
