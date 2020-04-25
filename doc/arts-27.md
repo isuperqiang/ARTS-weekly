@@ -1,87 +1,76 @@
 ## 1. Algorithm
 
-#### [判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)（简单）
+#### [搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)（中等）
 
 ##### 描述：
 
-> 实现一个算法，确定一个字符串 s 的所有字符是否全都不同。
->
+> 编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target。该矩阵具有以下特性：
+> 每行的元素从左到右升序排列。
+> 每列的元素从上到下升序排列。
 
 ##### 示例：
 
 ```
-输入: s = "leetcode"
-输出: false 
-输入: s = "abc"
-输出: true
+现有矩阵 matrix 如下：
+[
+  [1,   4,  7, 11, 15],
+  [2,   5,  8, 12, 19],
+  [3,   6,  9, 16, 22],
+  [10, 13, 14, 17, 24],
+  [18, 21, 23, 26, 30]
+]
+给定 target = 5，返回 true。
+给定 target = 20，返回 false。
 ```
 
 ##### 思路：
 
-- 统计次数：使用一个额外的 int 数组，统计每个字符出现的次数。
-- 位运算：int 类型有 32 位，取其中的低 26 位，作为每个字符的标志位，通过左移、与、或运算，记录每个字符的对应位置。真是高级解法！
+从左下角出发，把 target 和当前值比较。如果 target 大于当前值，就往右走；如果小于，就往上走。如果等于，就返回 true。
 
 ```java
 class Sulution {
-    public boolean isUnique1(String astr) {
-        if (astr == null || astr.length() == 0) {
-            return true;
+    public boolean searchMatrix(int[][] matrix, int target) {
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return false;
         }
-        int[] counts = new int[26];
-        for (int i = 0, length = astr.length(); i < length; i++) {
-            int pos = astr.charAt(i) - 'a';
-            if (counts[pos] >= 1) {
-                return false;
-            }
-            counts[pos] += 1;
-        }
-        return true;
-    }
-
-    public boolean isUnique2(String astr) {
-        if (astr == null || astr.length() == 0) {
-            return true;
-        }
-        int mark = 0;
-        for (int i = 0, length = astr.length(); i < length; i++) {
-            int flag = 1 << (astr.charAt(i) - 'a');
-            if ((mark & flag) != 0) {
-                return false;
+        int row = matrix.length - 1;
+        int column = 0;
+        int columnLength = matrix[0].length;
+        while (row >= 0 && column < columnLength) {
+            if (matrix[row][column] > target) {
+                row--;
+            } else if (matrix[row][column] < target) {
+                column++;
             } else {
-                mark |= flag;
+                return true;
             }
         }
-        return true;
+        return false;
     }
 }
 ```
 
 ##### 分析：
 
-统计次数：
-- 时间复杂度：O(N)
-- 空间复杂度：O(N)
-
-位运算：
-- 时间复杂度：O(N)
+- 时间复杂度：O(M+N)
 - 空间复杂度：O(1)
 
 ## 2. Review
 
-[How to Go from Junior to Senior Programmer](https://levelup.gitconnected.com/how-to-go-from-junior-to-senior-programmer-29d53f3edd27)  [如何从初级程序员变成高级程序员？](https://www.infoq.cn/article/6gagslvv3x5oQLpaVpv8)
+[My guiding principles after 20 years of programming](https://medium.com/@alexewerlof/my-guiding-principles-after-20-years-of-programming-a087dc55596c)  [20 年老程序员告诉你的 20 条编码原则](https://www.infoq.cn/article/VEgR7xkNIYUsSWP9Ohc3)
 
-从 InfoQ 看到的一篇译文，算是经验之谈。高工不是根据经验判定，而是分析的技能。深有同感，我总是把代码放在第一位，有时候忽略了业务场景，考虑问题的出发点不同，导致任务处理方式也不同。代码只是一部分，真正的目的是解决问题。
-
-> 一名程序员不会因为他会写代码而成为一名合格的程序员，而是因为在开始做任何事情之前先做分析，然后再来开展工作，这才是真正的程序员。
+软件开发的历史没多久，20年经验的程序员也比较稀缺。作者总结了编程的经验和原则，对刚入门不久的新人有很大启发。比如第一条不要纠结于开发工具，不管是库、编程语言或平台。总是有人争吵什么是最好的语言，其实抛开具体业务场景谈是没有意义的。
 
 ## 3. Tip
 
-最近某 BAT 之一坑害了 pandownload，真的是令人发指！自己的产品做得烂不去反思，却耍小伎俩坑无辜的开发者。天下苦 B 久矣，作为程序员，从抵制 B 开始。推荐一个好用的木弟子 [AgentNeo](https://neoproxy.org/?rc=r1gv64bl)，线路非常稳定，价格也实惠。通过我的链接注册，可以享受 5 元优惠 https://neoproxy.org/?rc=r1gv64bl。 （结算时选择团购下单，团购代码 21853G0V，享受 8 折优惠，活动截止 2020-04-25）
+断点调试是排查问题的好方法，其效率比打印 log 要高。不管是 Native 库还是 Java 库，都可以用断点调试，一步步执行代码，查看变量值和函数跳转。
 
 ## 4. Share
 
-在 GitHub 上搜了一些 Android 面试资料 http://note.youdao.com/noteshare?id=a04ac812925b23f6dc112eda70079c53 愿步步高升。
+**为什么需要软件架构?**
 
-**题外话：**
+早在 1986 年的时候，人月神话的作者在讨论软件的复杂性时，谈到：软件的本质复杂性存在于复杂的业务需求中。
 
-由于个人原因，ARTS 暂停了将近半年，后续恢复打卡，请见谅。
+而管理复杂性，最根本的手段就是职责分离。为了实现职责分离，代码重用，架构慢慢地复现出来。架构的本质是管理复杂性。
+
+没有架构，我们所有的代码都耦合在一起，人类的心智模型不擅长处理这种复杂性，架构的设立，和图书馆的图书分类，公司的组织划分等，本质都是一样的。是为了管理复杂性，以取得更高的生产力。
