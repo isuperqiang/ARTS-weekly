@@ -17,7 +17,7 @@
 
 ##### 思路：
 
-- 暴力解法：循环 K 次，每次移动一个元素。时间复杂度：O(k*N)，空间复杂度：O(1)。
+- 暴力解法：循环 K 次，每次移动一个元素。时间复杂度：O(k\*N)，空间复杂度：O(1)。
 
 ```java
 class Sulution {
@@ -133,6 +133,6 @@ class Sulution {
 
 在 Twitter 上看到陈皓发的推文，从程序员职业发展的角度评论编程语言，有生命力、有市场需求的语言值得投入。原帖在这里：https://twitter.com/haoel/status/1254974994964086785
 
-![有生命力语言的特征](https://richie-storage.oss-cn-hangzhou.aliyuncs.com/img/EWqQTnKU4AES4-K.png)
+![有生命力语言的特征](../img/EWqQTnKU4AES4-K.png)
 
-![陈皓评论语言](https://richie-storage.oss-cn-hangzhou.aliyuncs.com/img/EWqQRcGUcAAKt6z.png)
+![陈皓评论语言](../img/EWqQRcGUcAAKt6z.png)
