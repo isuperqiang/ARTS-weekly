@@ -76,7 +76,7 @@ class Sulution {
 
 ## 3. Tip
 
-最近某 BAT 之一坑害了 pandownload，真的是令人发指！自己的产品做得烂不去反思，却耍小伎俩坑无辜的开发者。天下苦 B 久矣，作为程序员，从抵制 B 开始。推荐一个好用的木弟子 [AgentNeo](https://neoproxy.org/?rc=r1gv64bl)，线路非常稳定，价格也实惠。通过我的链接注册，可以享受 5 元优惠 https://neoproxy.org/?rc=r1gv64bl。 （结算时选择团购下单，团购代码 21853G0V，享受 8 折优惠，活动截止 2020-04-25）
+最近某 BAT 之一坑害了 pandownload，真的是令人发指！自己的产品做得烂不去反思，却耍小伎俩坑无辜的开发者。天下苦 B 久矣，作为程序员，从抵制 B 开始。推荐一个好用的木弟子 [AgentNeo](https://neoproxy.me/?rc=r1gv64bl)，线路非常稳定，价格也实惠。通过我的链接注册，可以享受 5 元优惠 https://neoproxy.me/?rc=r1gv64bl
 
 ## 4. Share
 
