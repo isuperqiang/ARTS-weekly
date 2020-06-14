@@ -11,7 +11,7 @@ ARTS 详情：[极客时间《左耳听风》发起的ARTS挑战怎么参加？ 
 
 ## 2020
 
-**6月**：[第 32 期](doc/arts-32.md) :high_brightness:
+**6月**：[第 32 期](doc/arts-32.md) | [第 33 期](doc/arts-33.md) :high_brightness:
 
 **5月**：[第 28 期](doc/arts-28.md) | [第 29 期](doc/arts-29.md) | [第 30 期](doc/arts-30.md) | [第 31 期](doc/arts-31.md)
 
